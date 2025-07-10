@@ -777,7 +777,7 @@
 .fourth-block {
     width: 100%;
     height: 850px;
-    border: 1px solid black;
+    border: 0.1px solid transparent;
     background-color: #FEDBD2;
 
 }
@@ -1014,10 +1014,12 @@
     box-shadow: 0 0 10px #FF3F3A;
     transform: scale(105%);
 }
+
 .second-event:hover {
     box-shadow: 0 0 10px #FF3F3A;
     transform: scale(105%);
 }
+
 .third-event:hover {
     box-shadow: 0 0 10px #FF3F3A;
     transform: scale(105%);
@@ -1027,10 +1029,12 @@
     background-color: #FF3F3A;
     color: white;
 }
+
 .second-event:hover button {
     background-color: #FF3F3A;
     color: white;
 }
+
 .third-event:hover button {
     background-color: #FF3F3A;
     color: white;
@@ -1052,7 +1056,7 @@
     color: #1E212C;
     text-align: left;
     float: left;
-    
+
 }
 
 .view-all button {
@@ -1063,7 +1067,179 @@
     border-radius: 4px;
     gap: 10px;
     margin-left: 35px;
-    background: linear-gradient(#FF3F3A,#F75E05);
+    background: linear-gradient(#FF3F3A, #F75E05);
     float: left;
 
+}
+
+/* Fourth block end */
+
+/* Fifth block start */
+
+.fifth-block {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    position: relative;
+}
+
+.certificate {
+    width: 1232px;
+    height: 500px;
+    margin-left: 343px;
+    margin-top: 100px;
+
+}
+
+.certificate-left {
+    width: 397px;
+    height: 334px;
+    float: left;
+}
+
+.certificate-left h4 {
+    color: #1E212C;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.certificate-left h1 {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 46px;
+    margin-top: 15px;
+    color: #1E212C;
+}
+
+.certificate-left p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Lato;
+    margin-top: 40px;
+    color: #424551;
+}
+
+.certificate-logos {
+    width: 395px;
+    height: 50px;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.certificate-logos img {
+    margin-right: 23px;
+}
+
+.certificate-right {
+    position: absolute;
+    top: 0px;
+    left: 870px;
+    /* float: left; */
+
+}
+
+/* Fifth block end */
+
+/* Sixth block start */
+
+.sixth-block {
+    width: 100%;
+    height: 1570px;
+    background-color: #F4F5F6;
+    border: 0.1px solid transparent;
+}
+
+.team-carousel {
+    width: 1252px;
+    height: 568px;
+    margin-left: 345px;
+    margin-top: 200px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.team-carousel h6 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #1E212C;
+    text-transform: uppercase;
+}
+
+.team-carousel h2 {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 46px;
+    margin-top: 20px;
+    color: #1E212C;
+}
+
+.team-carousel button {
+    float: right;
+    border: none;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    margin-top: -45px;
+    margin-right: 20px;
+    background-color: transparent;
+}
+
+.team-carousel button:hover {
+    border-radius: 50%;
+    background-color: #FF3F3A;
+    color: white;
+}
+
+.team-card {
+    width: 285px;
+    height: 416px;
+    background-color: transparent;
+    margin-right: 27px;
+    margin-top: 50px;
+    transition: all 0.5s;
+    z-index: 1;
+    float: left;
+}
+
+.team-card-ex {
+    width: 285px;
+    height: 340px;
+    display: none;
+    z-index: 2;
+    background: linear-gradient(to top,rgba(30, 33, 44, 0), rgba(30, 33, 44, 0.03), rgba(30, 33, 44, 0.33), rgba(30, 33, 44, 0.56), rgba(30, 33, 44, 0.77), rgba(30, 33, 44, 0.92), rgba(30, 33, 44, 1))
+}
+
+.team-card:hover .team-card-ex {
+    display: block;
+}
+
+
+
+.team-card img {
+    width: 285px;
+    height: 340px;
+    border-radius: 4px;
+}
+
+.team-card h1 {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    color: #424551;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.team-card h3 {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    color: #787A80;
+    margin-top: 10px;
+    text-align: center;
 }
