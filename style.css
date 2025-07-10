@@ -6,7 +6,7 @@
 
 .container {
     width: 1920px;
-    height: auto;
+    margin: 0 auto;
     /* background-color: black; */
 }
 
@@ -1202,23 +1202,29 @@
     margin-right: 27px;
     margin-top: 50px;
     transition: all 0.5s;
-    z-index: 1;
     float: left;
 }
 
-.team-card-ex {
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.team-card-ex::after {
+    content: "";
     width: 285px;
-    height: 340px;
-    display: none;
-    z-index: 2;
-    background: linear-gradient(to top, rgba(30, 33, 44, 0), rgba(30, 33, 44, 0.03), rgba(30, 33, 44, 0.33), rgba(30, 33, 44, 0.56), rgba(30, 33, 44, 0.77), rgba(30, 33, 44, 0.92), rgba(30, 33, 44, 1))
+    height: 0%;
+    background: linear-gradient(to top, rgba(30, 33, 44, 0), rgba(30, 33, 44, 0.03), rgba(30, 33, 44, 0.33), rgba(30, 33, 44, 0.56), rgba(30, 33, 44, 0.77), rgba(30, 33, 44, 0.92), rgba(30, 33, 44, 1));
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
 }
 
-.team-card:hover .team-card-ex {
-    display: block;
+.team-card:hover::after{
+    height: 40%;
 }
-
-
 
 .team-card img {
     width: 285px;
@@ -1455,7 +1461,7 @@
     font-size: 16px;
     letter-spacing: 0.5px;
     line-height: 52px;
-    background: linear-gradient(#FF3F3A,#F75E05);
+    background: linear-gradient(#FF3F3A, #F75E05);
     float: left;
 }
 
