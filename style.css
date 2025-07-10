@@ -1513,3 +1513,163 @@
     font-size: 18px;
     margin-left: 7px;
 }
+
+/* Seventh block end */
+
+/* Footer start */
+
+.footer {
+  background-color: #1E212C;
+  color: white;
+  padding: 80px 100px 40px 100px;
+  font-family: "Lato", sans-serif;
+}
+
+.footer .Parents {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.ftr1 {
+  max-width: 320px;
+
+}
+
+.Cr2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.Xx {
+  width: 20px;
+  height: 18px;
+margin-top: -10px;
+}
+
+.textf {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.Icons-footer {
+  display: flex;
+  gap: 15px;
+}
+
+.Icons-footer img {
+  width: 24px;
+  height: 24px;
+  transition: 0.3s ease;
+}
+
+.Icons-footer img:hover {
+  transform: scale(1.1);
+}
+
+.ftr2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 150px;
+}
+
+.upa {
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.lowa {
+  font-size: 14px;
+  color: #9A9CA5;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.lowa:hover {
+  color: #FFFFFF;
+}
+
+.contact-wrap {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.phone,
+.email {
+  width: 14px;
+  height: auto;
+}
+
+.emailbox {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  width: 300px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  background-color: var(--secondary-color);
+}
+.linestroke {
+  width: 100%;
+  height: auto;
+  margin: 55px 270px 0;
+  color: #FFFFFF;
+}
+
+.fbotomtext {
+  font-size: 12px;
+  color: #9A9CA5;
+  line-height: 1.4;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+  border-top: 1px solid #3D3F44;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  font-size: 12px;
+  color: #9A9CA5;
+  margin-top: 40px;
+  height: 100px;
+  margin-bottom: -40px;
+  margin-left: -100px;
+  margin-right: -100px;
+}
+
+.footer-bottom img {
+  width: 12px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+.fbotomtext2 {
+  color: #FFFFFF;
+  font-weight: 700;
+  cursor: pointer;
+}
+.linestroke{
+  width: 20px;
+  height: 5px;
+  position: absolute;
+  top: 20pxpx;
+  color: #5A87FC;
+}
+
+.fbotomtext2:hover {
+  color: #FF3F3A;
+}
